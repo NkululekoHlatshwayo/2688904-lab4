@@ -1,0 +1,34 @@
+.spinner {
+    /* Your styling */
+    animation: spin 1s linear infinite; /* Required */
+    border-radius: 40%;
+    border: 5px solid royalblue;
+    width: 20px;
+    height: 20px;
+    display: none;
+    padding: 20px;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.country-card{
+    background-color: rgb(244, 247, 246);
+    padding: 30px;
+}
+.border-grid {
+    display: grid; /* or display: flex */
+    /* Additional layout properties */
+}
+
+.error {
+    color: red;
+    /* Additional styling */
+}
+
+.hidden {
+    display: none;
+}
